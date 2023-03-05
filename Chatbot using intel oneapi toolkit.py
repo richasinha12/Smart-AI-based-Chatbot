@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In
+
 
 
 # for speech to text
@@ -13,21 +13,9 @@ get_ipython().system('pip install gTTS  ')
 get_ipython().system('pip install transformers  ')
 get_ipython().system('pip install tensorflow ')
 
-
-# In
-
-
 import numpy as np
 
-
-# In
-
-
 get_ipython().system('pip install PyAudio')
-
-
-# In
-
 
 ## for language model
 import transformers
@@ -37,33 +25,16 @@ import transformers
 import datetime
 import numpy as np
 
-
-# In
-
-
 from gtts import gTTS
 import os
-
-
-# In
-
 
 import speech_recognition as sr
 
 
 
-
-
 pip install pyttsx3
 
-
-
-
-
 import pyttsx3
-
-
-
 
 
 import datetime
