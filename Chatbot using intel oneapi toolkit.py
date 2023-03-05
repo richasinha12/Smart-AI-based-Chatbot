@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In
 
 
 # for speech to text
@@ -14,19 +14,19 @@ get_ipython().system('pip install transformers  ')
 get_ipython().system('pip install tensorflow ')
 
 
-# In[ ]:
+# In
 
 
 import numpy as np
 
 
-# In[ ]:
+# In
 
 
 get_ipython().system('pip install PyAudio')
 
 
-# In[ ]:
+# In
 
 
 ## for language model
@@ -38,32 +38,32 @@ import datetime
 import numpy as np
 
 
-# In[ ]:
+# In
 
 
 from gtts import gTTS
 import os
 
 
-# In[ ]:
+# In
 
 
 import speech_recognition as sr
 
 
-# In[ ]:
+
 
 
 pip install pyttsx3
 
 
-# In[ ]:
+
 
 
 import pyttsx3
 
 
-# In[ ]:
+
 
 
 import datetime
@@ -159,28 +159,4 @@ if __name__ == "__main__":
             res = res[res.find("bot >> ")+6:].strip()
 
         ai.text_to_speech(res)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
